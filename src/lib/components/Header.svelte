@@ -12,8 +12,8 @@
 	function formatDateLabel(dateStr: string): string {
 		const [y, m, d] = dateStr.split('-').map(Number);
 		return new Date(y, m - 1, d).toLocaleDateString('en-US', {
-			weekday: 'long',
-			month: 'long',
+			weekday: 'short',
+			month: 'short',
 			day: 'numeric'
 		});
 	}
