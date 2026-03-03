@@ -92,6 +92,9 @@
 		session_type: string;
 		description: string;
 		room: string;
+		skillLevel: string;
+		tracks: string[];
+		recorded: boolean;
 		col: number;
 		rowStart: number;
 		rowEnd: number;
@@ -117,6 +120,9 @@
 					session_type: s.session_type,
 					description: s.description,
 					room: s.room,
+					skillLevel: s.skill_level,
+					tracks: s.tracks,
+					recorded: s.recorded,
 					col,
 					rowStart,
 					rowEnd
@@ -173,7 +179,7 @@
 			<!-- Sessions -->
 			{#each gridSessions as s (s.session_id)}
 				<button
-					class="rounded border border-gray-300 bg-gray-50 text-[11px] leading-2.5 px-1 py-1 overflow-hidden cursor-pointer m-[1px] text-left hover:bg-gray-100 transition-colors"
+					class="rounded border border-gray-300 bg-gray-50 text-[11px] leading-2.5 px-1 py-1 overflow-hidden cursor-pointer m-[1px] text-left hover:bg-gray-100 transition-colors flex flex-col items-start"
 					style="grid-column: {s.col}; grid-row: {s.rowStart + 1} / {s.rowEnd + 1};"
 					title="{s.session_title} ({s.session_type})"
 					onclick={() => selectedSession = s}
@@ -188,6 +194,10 @@
 		open={selectedSession !== null}
 		title={selectedSession?.session_title ?? ''}
 		description={selectedSession?.description ?? ''}
+		skillLevel={selectedSession?.skillLevel}
+		sessionType={selectedSession?.session_type}
+		tracks={selectedSession?.tracks}
+		recorded={selectedSession?.recorded}
 		onClose={() => selectedSession = null}
 	/>
 </div>

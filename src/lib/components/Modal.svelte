@@ -4,9 +4,13 @@
 		title: string;
 		description: string;
 		onClose: () => void;
+		skillLevel?: string;
+		sessionType?: string;
+		tracks?: string[];
+		recorded?: boolean;
 	}
 
-	let { open, title, description, onClose }: Props = $props();
+	let { open, title, description, onClose, skillLevel, sessionType, tracks = [], recorded }: Props = $props();
 
 	function handleKeydown(event: KeyboardEvent) {
 		if (event.key === 'Escape') {
@@ -47,6 +51,28 @@
 			<div class="p-4 text-gray-700">
 				{@html description}
 			</div>
-		</div>
+			<div class="border-t border-gray-200 px-4 py-3 bg-gray-50 text-xs text-gray-600 flex items-center flex-wrap gap-4">
+				{#if skillLevel}
+					<div class="flex items-center gap-1">
+						<span class="font-semibold text-gray-700">{skillLevel}</span>
+					</div>
+				{/if}
+				{#if sessionType}
+					<div class="flex items-center gap-1">
+						<span>{sessionType}</span>
+					</div>
+				{/if}
+				{#if tracks && tracks.length > 0}
+					<div class="flex items-center gap-1">
+						{#each tracks as track}
+							<span class="bg-blue-100 text-blue-800 px-2 py-0.5 rounded">{track}</span>
+						{/each}
+					</div>
+				{/if}
+				{#if recorded !== undefined && recorded}
+					<span class="font-semibold text-gray-700">🎥 Recorded</span>
+				{/if}
+			</div>
+        </div>  
 	</div>
 {/if}
