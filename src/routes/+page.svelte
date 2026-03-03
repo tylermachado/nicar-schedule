@@ -1,6 +1,7 @@
 <script lang="ts">
 	import schedule from '$lib/data/schedule.json';
 	import Header from '$lib/components/Header.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 	import Modal from '$lib/components/Modal.svelte';
 
 	// Conference timezone is ET (EST = UTC-5 in March)
@@ -201,3 +202,5 @@
 		onClose={() => selectedSession = null}
 	/>
 </div>
+
+<Footer />
