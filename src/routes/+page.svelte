@@ -1,5 +1,7 @@
 <script lang="ts">
 	import schedule from '$lib/data/schedule.json';
+	import Header from '$lib/components/Header.svelte';
+	import Modal from '$lib/components/Modal.svelte';
 
 	// Conference timezone is ET (EST = UTC-5 in March)
 	const ET_OFFSET_MS = -5 * 60 * 60 * 1000;
@@ -35,9 +37,15 @@
 		schedule.sessions.filter((s) => s.start_time.startsWith(selectedDate))
 	);
 
-	const rooms = $derived(
-		[...new Set(daySessions.map((s) => s.room).filter((r) => r && r !== 'TBD'))].sort()
-	);
+	const rooms = $derived.by(() => {
+		const pinnedVenues = ['White River E-F', 'White River Foyer', 'Griffin Hall'];
+		const allRooms = [...new Set(daySessions.map((s) => s.room).filter((r) => r && r !== 'TBD'))];
+		const unpinned = allRooms.filter((r) => !pinnedVenues.includes(r)).sort();
+		const pinned = allRooms.filter((r) => pinnedVenues.includes(r)).sort((a, b) => 
+			pinnedVenues.indexOf(a) - pinnedVenues.indexOf(b)
+		);
+		return [...unpinned, ...pinned];
+	});
 
 	const gridStart = $derived.by(() => {
 		const min = Math.min(...daySessions.map((s) => toET(s.start_time).getTime()));
@@ -82,11 +90,15 @@
 		session_id: number;
 		session_title: string;
 		session_type: string;
+		description: string;
 		room: string;
 		col: number;
 		rowStart: number;
 		rowEnd: number;
 	};
+
+	// Selected session for modal
+	let selectedSession = $state<GridSession | null>(null);
 
 	const gridSessions = $derived.by((): GridSession[] =>
 		daySessions
@@ -103,6 +115,7 @@
 					session_id: s.session_id,
 					session_title: s.session_title,
 					session_type: s.session_type,
+					description: s.description,
 					room: s.room,
 					col,
 					rowStart,
@@ -115,23 +128,7 @@
 </script>
 
 <div class="p-4">
-	<!-- Title + date switcher -->
-	<div class="flex flex-wrap items-center gap-4 mb-6">
-		<h1 class="text-3xl font-bold">{schedule.name}</h1>
-		<div class="flex gap-2">
-			{#each dates as date}
-				<button
-					onclick={() => (selectedDate = date)}
-					class="px-3 py-1 rounded-full text-sm font-medium border transition-colors
-						{selectedDate === date
-						? 'bg-gray-900 text-white border-gray-900'
-						: 'bg-white text-gray-600 border-gray-300 hover:border-gray-500 hover:text-gray-900'}"
-				>
-					{formatDateLabel(date)}
-				</button>
-			{/each}
-		</div>
-	</div>
+	<Header {dates} {selectedDate} onSelectDate={date => (selectedDate = date)} />
 
 	<!-- Scrollable grid wrapper -->
 	<div class="overflow-x-auto">
@@ -175,14 +172,22 @@
 
 			<!-- Sessions -->
 			{#each gridSessions as s (s.session_id)}
-				<div
-					class="rounded border border-gray-300 bg-gray-50 text-[11px] leading-2.5 px-1 py-1 overflow-hidden cursor-default m-[1px]"
+				<button
+					class="rounded border border-gray-300 bg-gray-50 text-[11px] leading-2.5 px-1 py-1 overflow-hidden cursor-pointer m-[1px] text-left hover:bg-gray-100 transition-colors"
 					style="grid-column: {s.col}; grid-row: {s.rowStart + 1} / {s.rowEnd + 1};"
 					title="{s.session_title} ({s.session_type})"
+					onclick={() => selectedSession = s}
 				>
 					<span class="font-semibold block">{s.session_title}</span>
-				</div>
+				</button>
 			{/each}
 		</div>
 	</div>
+
+	<Modal
+		open={selectedSession !== null}
+		title={selectedSession?.session_title ?? ''}
+		description={selectedSession?.description ?? ''}
+		onClose={() => selectedSession = null}
+	/>
 </div>
