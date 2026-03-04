@@ -1,6 +1,4 @@
 <script lang="ts">
-	import schedule from '$lib/data/schedule.json';
-
 	interface Props {
 		dates: string[];
 		selectedDate: string;
@@ -20,7 +18,7 @@
 </script>
 
 <header class="flex flex-wrap items-center gap-4 mb-6">
-	<h1 class="text-3xl font-bold">{schedule.name}</h1>
+	<h1 class="text-3xl font-bold">NICAR 2026</h1>
 	<div class="flex gap-2">
 		{#each dates as date}
 			<button

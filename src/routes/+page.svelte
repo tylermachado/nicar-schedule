@@ -1,8 +1,11 @@
 <script lang="ts">
-	import schedule from '$lib/data/schedule.json';
+
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import Modal from '$lib/components/Modal.svelte';
+
+  	let { data } = $props();
+	let schedule = data.schedule;
 
 	// Conference timezone is ET (EST = UTC-5 in March)
 	const ET_OFFSET_MS = -5 * 60 * 60 * 1000;
@@ -39,7 +42,7 @@
 	);
 
 	const rooms = $derived.by(() => {
-		const pinnedVenues = ['White River E-F', 'White River Foyer', 'Griffin Hall'];
+		const pinnedVenues = ['White River E-F', 'White River Foyer', 'Griffin Hall', 'Follow signs near Ballroom F', 'Foyer', 'Near the escalator'];
 		const allRooms = [...new Set(daySessions.map((s) => s.room).filter((r) => r && r !== 'TBD'))];
 		const unpinned = allRooms.filter((r) => !pinnedVenues.includes(r)).sort();
 		const pinned = allRooms.filter((r) => pinnedVenues.includes(r)).sort((a, b) => 
