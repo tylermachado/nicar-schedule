@@ -42,7 +42,7 @@
 	);
 
 	const rooms = $derived.by(() => {
-		const pinnedVenues = ['White River E-F', 'White River Foyer', 'Griffin Hall'];
+		const pinnedVenues = ['White River E-F', 'White River Foyer', 'Griffin Hall', 'Follow signs near Ballroom F', 'Foyer', 'Near the escalator'];
 		const allRooms = [...new Set(daySessions.map((s) => s.room).filter((r) => r && r !== 'TBD'))];
 		const unpinned = allRooms.filter((r) => !pinnedVenues.includes(r)).sort();
 		const pinned = allRooms.filter((r) => pinnedVenues.includes(r)).sort((a, b) => 
