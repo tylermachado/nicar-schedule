@@ -1,8 +1,11 @@
 <script lang="ts">
-	import schedule from '$lib/data/schedule.json';
+
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 	import Modal from '$lib/components/Modal.svelte';
+
+  	let { data } = $props();
+	let schedule = data.schedule;
 
 	// Conference timezone is ET (EST = UTC-5 in March)
 	const ET_OFFSET_MS = -5 * 60 * 60 * 1000;
