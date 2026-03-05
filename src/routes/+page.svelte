@@ -7,6 +7,8 @@
   	let { data } = $props();
 	let schedule = data.schedule;
 
+	import { savedSessions } from '$stores/savedSessions.svelte.ts';
+
 	// Conference timezone is ET (EST = UTC-5 in March)
 	const ET_OFFSET_MS = -5 * 60 * 60 * 1000;
 
@@ -183,19 +185,23 @@
 			<!-- Sessions -->
 			{#each gridSessions as s (s.session_id)}
 				<button
-					class="rounded border border-gray-300 bg-gray-50 text-[11px] leading-2.5 px-1 py-1 overflow-hidden cursor-pointer m-[1px] text-left hover:bg-gray-100 transition-colors flex flex-col items-start"
-					style="grid-column: {s.col}; grid-row: {s.rowStart + 1} / {s.rowEnd + 1};"
-					title="{s.session_title} ({s.session_type})"
-					onclick={() => selectedSession = s}
-				>
-					<span class="font-semibold block">{s.session_title}</span>
-				</button>
+  class="rounded border text-[11px] leading-2.5 px-1 py-1 overflow-hidden cursor-pointer m-[1px] text-left transition-colors flex flex-col items-start
+    {savedSessions.isSaved(s.session_id)
+      ? 'bg-yellow-100 border-yellow-400 hover:bg-yellow-200'
+      : 'bg-gray-50 border-gray-300 hover:bg-gray-100'}"
+  style="grid-column: {s.col}; grid-row: {s.rowStart + 1} / {s.rowEnd + 1};"
+  title="{s.session_title} ({s.session_type})"
+  onclick={() => selectedSession = s}
+>
+  <span class="font-semibold block">{s.session_title}</span>
+</button>
 			{/each}
 		</div>
 	</div>
 
 	<Modal
 		open={selectedSession !== null}
+		id={selectedSession?.session_id ?? ''}
 		title={selectedSession?.session_title ?? ''}
 		description={selectedSession?.description ?? ''}
 		skillLevel={selectedSession?.skillLevel}
