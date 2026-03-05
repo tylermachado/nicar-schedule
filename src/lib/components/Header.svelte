@@ -15,6 +15,39 @@
 			day: 'numeric'
 		});
 	}
+
+
+
+	import { savedSessions } from '$stores/savedSessions.svelte.ts';
+
+	import { page } from '$app/stores';
+import { browser } from '$app/environment';
+import { onMount } from 'svelte';
+
+onMount(() => {
+  const params = new URLSearchParams(window.location.search);
+  const saved = params.get('saved');
+  if (saved) {
+    saved.split(',').forEach(id => {
+      if (!savedSessions.isSaved(id)) savedSessions.toggle(id);
+    });
+  }
+});
+
+function buildShareUrl(): string {
+  const ids = savedSessions.getIds().join(',');
+  const url = new URL(window.location.href);
+  url.searchParams.set('saved', ids);
+  return url.toString();
+}
+
+let copied = $state(false);
+
+function copyShareUrl() {
+  navigator.clipboard.writeText(buildShareUrl());
+  copied = true;
+  setTimeout(() => copied = false, 2000);
+}
 </script>
 
 <header class="flex flex-wrap items-center gap-4 mb-6">
@@ -32,4 +65,10 @@
 			</button>
 		{/each}
 	</div>
+	<button
+  onclick={copyShareUrl}
+  class="text-xs px-3 py-1 rounded bg-green-100 border border-green-400 hover:bg-green-200 transition-colors"
+>
+  {copied ? '✓ Link copied!' : 'Share Saved Sessions'}
+</button>
 </header>
