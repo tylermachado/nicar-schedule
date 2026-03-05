@@ -5,7 +5,7 @@
   "end_date": "2026-03-08",
   "timezone": "America/New_York",
   "timezone_short": "ET",
-  "updated": "2026-03-02",
+  "updated": "2026-03-04",
   "description": "Join us in downtown Indianapolis for the most in-depth data journalism conference around! Explore a packed schedule with dozens of workshops, panel discussions, networking sessions and other opportunities to level up your skills.",
   "hotel_name": "JW Marriott",
   "banner_image": "https://schedules.ire.org/nicar-2026/nicar-2026-logo.png",
@@ -89,7 +89,7 @@
       "end_time": "2026-03-07T20:30:00.000Z",
       "recorded": true,
       "skill_level": "Beginner",
-      "speakers": ["4f16ae15", "51a312a8", "fe761d36", "6ced0df9"],
+      "speakers": ["4f16ae15", "51a312a8", "6ced0df9"],
       "room": "White River I",
       "tracks": ["Career"],
       "sponsored_by": "",
@@ -432,7 +432,7 @@
       "end_time": "2026-03-07T15:00:00.000Z",
       "recorded": true,
       "skill_level": "Intermediate",
-      "speakers": ["ed8a14ce", "64923ff7", "af338f06", "f4082b8b"],
+      "speakers": ["ed8a14ce", "af338f06", "f4082b8b", "980642d6"],
       "room": "White River E",
       "tracks": ["AI"],
       "sponsored_by": "",
@@ -448,7 +448,7 @@
       "end_time": "2026-03-07T17:30:00.000Z",
       "recorded": true,
       "skill_level": "Intermediate",
-      "speakers": ["ed8a14ce"],
+      "speakers": ["ed8a14ce", "9546ecde", "b50c097d", "2c309cfc", "0ef1d3bb"],
       "room": "White River I",
       "tracks": ["AI", "Educators"],
       "sponsored_by": "",
@@ -688,7 +688,7 @@
       "end_time": "2026-03-06T20:30:00.000Z",
       "recorded": false,
       "skill_level": "Intermediate",
-      "speakers": ["1edc141b", "21839acb", "ca35ff5d"],
+      "speakers": ["1edc141b", "21839acb", "56926de5"],
       "room": "104",
       "tracks": ["Data analysis"],
       "sponsored_by": "",
@@ -698,7 +698,7 @@
       "session_id": 1089,
       "session_title": "Using immigration data to tell stories in your community",
       "canceled": false,
-      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">From asylum case outcomes at your city&#39;s immigration court to detention figures at the ICE holding facility a couple counties over, there&#39;s no shortage of data that can help you tell local stories on the sprawling immigration beat. The trouble is the data are often scattered, inconsistent and come with lots of caveats. Hear from reporters who&#39;ve used data to tell stories about how immigration policies coming out of Washington are impacting residents in their communities.</p>",
+      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">There&#39;s no shortage of data that can help you tell local stories on the sprawling immigration beat, but the data are often scattered, inconsistent and come with lots of caveats. This hands-on session will walk you through telling a data-driven story on asylum rates in your city or state, from gathering the data to analyzing it. We&#39;ll also give you an overview of other immigration data sources to help you tell stories on how policies out of Washington impact your community — from immigration enforcement to the court system.</p>\n<p class=\"mt-4 leading-relaxed text-gray-800\">This session&#39;s instructors are fluent in both Python and R. Code in both languages will be provided and instructors will be able to assist attendees following along in either language. The class will be taught in whichever language the majority of attendees vote for at the start of the session!</p>",
       "session_type": "Demo",
       "start_time": "2026-03-06T14:00:00.000Z",
       "end_time": "2026-03-06T15:00:00.000Z",
@@ -722,12 +722,12 @@
       "canceled": false,
       "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">A session that shows participants a variety of tools and tricks for investigating Telegram chats and channels. Telegram is a primary source for a lot of newsworthy activity: militias in armed conflicts around the world, neo-Nazi terror organizations, illicit markets, etc. Telegram also has a very open and accessible API, which makes fetching and working with their data easier than many other social media platforms. But there&#39;s a lot of features of and knowledge about Telegram that often isn&#39;t always apparent, which can cause pitfalls for journalists and researchers who aren&#39;t familiar with it.</p>",
       "session_type": "Demo",
-      "start_time": "2026-03-05T15:15:00.000Z",
-      "end_time": "2026-03-05T16:15:00.000Z",
-      "recorded": true,
+      "start_time": "2026-03-06T15:15:00.000Z",
+      "end_time": "2026-03-06T16:15:00.000Z",
+      "recorded": false,
       "skill_level": "Beginner",
       "speakers": ["f8baf364", "77ca345f"],
-      "room": "White River G",
+      "room": "102",
       "tracks": [
         "Beat reporting",
         "Data analysis",
@@ -764,7 +764,7 @@
       "end_time": "2026-03-07T16:15:00.000Z",
       "recorded": true,
       "skill_level": "Beginner",
-      "speakers": ["f8baf364", "77ca345f", "1d8e457e", "e346455b"],
+      "speakers": ["f8baf364", "77ca345f", "e346455b"],
       "room": "White River E",
       "tracks": ["Research"],
       "sponsored_by": "",
@@ -1004,7 +1004,7 @@
       "end_time": "2026-03-05T21:45:00.000Z",
       "recorded": false,
       "skill_level": "Intermediate",
-      "speakers": ["2c309cfc"],
+      "speakers": ["2c309cfc", "c5e56010"],
       "room": "203",
       "tracks": ["Tools & Tech", "Story ideas"],
       "sponsored_by": "",
@@ -1228,7 +1228,7 @@
       "end_time": "2026-03-07T17:30:00.000Z",
       "recorded": false,
       "skill_level": "Beginner",
-      "speakers": ["d0f63877", "91ac8daf"],
+      "speakers": ["d0f63877", "071226b8", "91ac8daf"],
       "room": "102",
       "tracks": ["Career"],
       "sponsored_by": "",
@@ -1414,7 +1414,7 @@
       "session_id": 1184,
       "session_title": "The winding paths of a data journalist",
       "canceled": false,
-      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Data journalists have unique skills and experiences that are applicable to product design and management roles. Learn from panelists who have navigated unexpected journeys to find their niche in the data world. This panel is great for people who are curious about making a career shift, and hearing from mid-career professionals who have firsthand experience in making these transitions. Our panelists will share their strategies and lessons learned, offering valuable insights for those considering a similar career pivot.</p>",
+      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Data journalists have unique skills and experiences that are applicable to product design and management roles. Learn from panelists who have navigated unexpected journeys to find their niche in the data world. This panel is great for people who are curious about making a career shift, and hearing from professionals who have firsthand experience in making these transitions. Our panelists will share their strategies and lessons learned, offering valuable insights for those considering a similar career pivot.</p>",
       "session_type": "Panel",
       "start_time": "2026-03-07T15:15:00.000Z",
       "end_time": "2026-03-07T16:15:00.000Z",
@@ -1500,7 +1500,7 @@
       "end_time": "2026-03-07T21:45:00.000Z",
       "recorded": false,
       "skill_level": "Beginner",
-      "speakers": ["aa9c3c2c", "bca765e7", "55ad6a78", "a7f68cf1", "da1ce405"],
+      "speakers": ["bca765e7", "55ad6a78", "a7f68cf1", "da1ce405"],
       "room": "White River D",
       "tracks": ["Career"],
       "sponsored_by": "",
@@ -1692,7 +1692,7 @@
       "end_time": "2026-03-05T17:30:00.000Z",
       "recorded": true,
       "skill_level": "Beginner",
-      "speakers": ["404758c3", "2dabd65b", "31d9bb94", "d62fb27f"],
+      "speakers": ["404758c3", "d62fb27f", "7c15623e"],
       "room": "White River I",
       "tracks": ["Story ideas", "Research"],
       "sponsored_by": "",
@@ -2157,7 +2157,7 @@
       "recorded": false,
       "skill_level": "Beginner",
       "speakers": ["a34276ee"],
-      "room": "102",
+      "room": "203",
       "tracks": ["Data analysis"],
       "sponsored_by": "",
       "cost": ""
@@ -2390,13 +2390,13 @@
       "session_id": 1275,
       "session_title": "Journalism jobs for Internationals",
       "canceled": false,
-      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Things are tough right now for international journalists and students who want to work in the US and need visas. We face challenges finding newsrooms willing to hire or sponsor us, navigating the visa landscape and helping our employers understand the process. It’s time for us to band together. Journalism Jobs for Internationals was created by volunteers to share resources that address those challenges facing international journalists and build a community where one supports another. In this session, we will present the information we compiled, answer any questions and listen to your feedbacks. Help us better help you!</p>",
+      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Things have gotten much tougher for international journalists and students who want to work in the US. New policies, hiring slowdowns and a general lack of clarity have made an already difficult process even more stressful. But you are not alone—it’s time for us to band together. Journalism Jobs for Internationals was created by volunteers to share resources, answer questions and build a community where international journalists can support one another. In this session, we will present what we have compiled, answer your questions and listen to your feedback. Help us better help you!</p>",
       "session_type": "Special",
       "start_time": "2026-03-05T16:30:00.000Z",
       "end_time": "2026-03-05T17:30:00.000Z",
-      "recorded": true,
+      "recorded": false,
       "skill_level": "Beginner",
-      "speakers": ["cc6fa40b"],
+      "speakers": ["cc6fa40b", "829baf74", "4e88909a"],
       "room": "White River E",
       "tracks": ["International"],
       "sponsored_by": "",
@@ -2908,7 +2908,7 @@
       "end_time": "2026-03-05T13:45:00.000Z",
       "recorded": false,
       "skill_level": "Beginner",
-      "speakers": ["f8a50e56"],
+      "speakers": ["f8a50e56", "84e1592a"],
       "room": "White River E",
       "tracks": ["Event"],
       "sponsored_by": "",
@@ -2998,14 +2998,14 @@
       "session_id": 1317,
       "session_title": "Lunch bunch",
       "canceled": false,
-      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Make some new friends over lunch! Show up and we&#39;ll connect you with other folks who want to chat and network over the lunch break -- a great way to make a big conference feel smaller.</p>",
+      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Make some new friends over lunch! Show up and we&#39;ll connect you with other folks who want to chat and network over the lunch break -- a great way to make a big conference feel smaller.</p>\n<p class=\"mt-4 leading-relaxed text-gray-800\">Meet at the bottom of the escalators on Level 1.</p>",
       "session_type": "Special",
       "start_time": "2026-03-05T17:30:00.000Z",
       "end_time": "2026-03-05T19:15:00.000Z",
       "recorded": false,
       "skill_level": "Beginner",
       "speakers": [],
-      "room": "TBD",
+      "room": "Near the escalator",
       "tracks": ["Event"],
       "sponsored_by": "",
       "cost": ""
@@ -3014,14 +3014,14 @@
       "session_id": 1318,
       "session_title": "Lunch bunch",
       "canceled": false,
-      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Make some new friends over lunch! Show up and we&#39;ll connect you with other folks who want to chat and network over the lunch break -- a great way to make a big conference feel smaller.</p>",
+      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Make some new friends over lunch! Show up and we&#39;ll connect you with other folks who want to chat and network over the lunch break -- a great way to make a big conference feel smaller.</p>\n<p class=\"mt-4 leading-relaxed text-gray-800\">Meet at the bottom of the escalators on Level 1.</p>",
       "session_type": "Special",
       "start_time": "2026-03-06T17:30:00.000Z",
       "end_time": "2026-03-06T19:15:00.000Z",
       "recorded": false,
       "skill_level": "Beginner",
       "speakers": [],
-      "room": "TBD",
+      "room": "Near the escalator",
       "tracks": ["Event"],
       "sponsored_by": "",
       "cost": ""
@@ -3030,14 +3030,14 @@
       "session_id": 1319,
       "session_title": "Lunch bunch",
       "canceled": false,
-      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Make some new friends over lunch! Show up and we&#39;ll connect you with other folks who want to chat and network over the lunch break -- a great way to make a big conference feel smaller.</p>",
+      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Make some new friends over lunch! Show up and we&#39;ll connect you with other folks who want to chat and network over the lunch break -- a great way to make a big conference feel smaller.</p>\n<p class=\"mt-4 leading-relaxed text-gray-800\">Meet at the bottom of the escalators on Level 1.</p>",
       "session_type": "Special",
       "start_time": "2026-03-07T17:30:00.000Z",
       "end_time": "2026-03-07T19:15:00.000Z",
       "recorded": false,
       "skill_level": "Beginner",
       "speakers": [],
-      "room": "TBD",
+      "room": "Near the escalator",
       "tracks": ["Event"],
       "sponsored_by": "",
       "cost": ""
@@ -3068,7 +3068,7 @@
       "end_time": "2026-03-07T20:30:00.000Z",
       "recorded": false,
       "skill_level": "Intermediate",
-      "speakers": ["efede6d2"],
+      "speakers": ["efede6d2", "f191b796"],
       "room": "203",
       "tracks": ["Mapping", "Data analysis", "Tools & Tech"],
       "sponsored_by": "",
@@ -3084,7 +3084,7 @@
       "end_time": "2026-03-07T21:45:00.000Z",
       "recorded": false,
       "skill_level": "Intermediate",
-      "speakers": ["efede6d2"],
+      "speakers": ["efede6d2", "f191b796"],
       "room": "203",
       "tracks": ["Mapping", "Data analysis", "Tools & Tech"],
       "sponsored_by": "",
@@ -3100,7 +3100,7 @@
       "end_time": "2026-03-07T23:00:00.000Z",
       "recorded": false,
       "skill_level": "Intermediate",
-      "speakers": ["efede6d2"],
+      "speakers": ["efede6d2", "f191b796"],
       "room": "203",
       "tracks": ["Mapping", "Data analysis", "Tools & Tech"],
       "sponsored_by": "",
@@ -3211,7 +3211,7 @@
     },
     {
       "session_id": 1330,
-      "session_title": "We're funny (and managers), ask us anything: career, networking, mentorship",
+      "session_title": "We're managers, ask us anything: career, networking, mentorship",
       "canceled": false,
       "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Name just about any kind of newroom, job, story or industry crisis and these powerhouse journalists have been there, done it and survived - stronger and better than ever! They&#39;ll share all their best tips for working through tough times and making it as a journalist, finding and telling the best stories, how to make your IRE membership work for you and more. We&#39;ll save lots of time at the end for questions and some lively networking before the opening reception.</p>",
       "session_type": "Panel",
@@ -3286,6 +3286,22 @@
       "speakers": ["a4dde5fa", "f8a50e56", "c403dd3f"],
       "room": "White River B",
       "tracks": ["Students", "Story ideas"],
+      "sponsored_by": "",
+      "cost": ""
+    },
+    {
+      "session_id": 1336,
+      "session_title": "Pitch, please! How to contribute to the IRE Journal",
+      "canceled": false,
+      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Do you have a cool data project you want to highlight? Some FOIA expertise you wanna share? How about some *thoughts* about the industry? Pitch IRE Journal managing editor Adam Rhodes in the exhibitor hall!</p>",
+      "session_type": "Demo",
+      "start_time": "2026-03-05T19:30:00.000Z",
+      "end_time": "2026-03-05T23:00:00.000Z",
+      "recorded": false,
+      "skill_level": "Beginner",
+      "speakers": ["b754b942"],
+      "room": "Foyer",
+      "tracks": ["Story ideas"],
       "sponsored_by": "",
       "cost": ""
     },
@@ -3389,7 +3405,7 @@
       "session_id": 1346,
       "session_title": "NICAR-L hackathon 🤠",
       "canceled": false,
-      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">The NICAR-L listserv has long been a source of inspiration and knowledge-sharing for data journalists around the world. But tapping into the decades of wisdom contained in its archives can be difficult with existing tools. Let&#39;s build something better!</p>\n<p class=\"mt-4 leading-relaxed text-gray-800\">This session is good for people who get excited about cleaning dirty, inconsistently formatted data and building user-friendly tools. Attendees will need to bring their own laptop (no tablets) to participate in this class.</p>",
+      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">The NICAR-L listserv has long been a source of inspiration and knowledge-sharing for data journalists around the world. But tapping into the decades of wisdom contained in its archives is difficult with existing tools. Let&#39;s build something better!</p>\n<p class=\"mt-4 leading-relaxed text-gray-800\">This session is good for people who get excited about cleaning dirty, inconsistently formatted data to power user-friendly tools. Attendees will need to bring their own laptop (no tablets) to participate in this class.</p>",
       "session_type": "Hands-on",
       "start_time": "2026-03-08T13:00:00.000Z",
       "end_time": "2026-03-08T14:00:00.000Z",
@@ -3405,7 +3421,7 @@
       "session_id": 1347,
       "session_title": "From good to great data viz design",
       "canceled": false,
-      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Learn design tips for polishing your graphics to tell clear and compelling stories. This session will involve participatory discussion where we review example charts and maps as a group, covering design challenges like focusing the user’s attention, making complex data understandable, and using non-standard chart types.</p>\n<p class=\"mt-4 leading-relaxed text-gray-800\">This session is good for: People who create graphics and are interested in learning how to improve their design. Laptops will be provided.</p>",
+      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Learn design tips for polishing your graphics to tell clear and compelling stories. This tool-agnostic session will involve participatory discussion where we review example charts and maps as a group, covering design challenges like focusing the user’s attention, making complex data understandable, and using non-standard chart types. Feel free to bring one of your own graphics to workshop with the group.</p>\n<p class=\"mt-4 leading-relaxed text-gray-800\">This session is good for: People who create graphics and are interested in learning how to improve their design.</p>",
       "session_type": "Hands-on",
       "start_time": "2026-03-05T16:30:00.000Z",
       "end_time": "2026-03-05T17:30:00.000Z",
@@ -3459,7 +3475,7 @@
       "end_time": "2026-03-05T21:45:00.000Z",
       "recorded": true,
       "skill_level": "Beginner",
-      "speakers": ["550537ef", "ab6a4060"],
+      "speakers": ["550537ef", "e448be3a", "cbfd6c9d"],
       "room": "White River G",
       "tracks": ["Public records"],
       "sponsored_by": "",
@@ -3523,25 +3539,9 @@
       "end_time": "2026-03-07T16:15:00.000Z",
       "recorded": false,
       "skill_level": "Beginner",
-      "speakers": [],
+      "speakers": ["2c309cfc"],
       "room": "205",
       "tracks": ["AI", "Public records", "Tools & Tech"],
-      "sponsored_by": "",
-      "cost": ""
-    },
-    {
-      "session_id": 1358,
-      "session_title": "Investigating the Epstein Files",
-      "canceled": false,
-      "description": "",
-      "session_type": "",
-      "start_time": "2026-03-06T19:30:00.000Z",
-      "end_time": "2026-03-06T20:30:00.000Z",
-      "recorded": true,
-      "skill_level": "Beginner",
-      "speakers": ["f25bb759", "35ca5e61", "05fe1c3c", "03bb30e6", "bc201430"],
-      "room": "White River E",
-      "tracks": ["Story ideas"],
       "sponsored_by": "",
       "cost": ""
     },
@@ -3574,6 +3574,22 @@
       "speakers": ["49f34571"],
       "room": "White River D",
       "tracks": ["AI", "Tools & Tech"],
+      "sponsored_by": "",
+      "cost": ""
+    },
+    {
+      "session_id": 1358,
+      "session_title": "Investigating the Epstein Files",
+      "canceled": false,
+      "description": "",
+      "session_type": "",
+      "start_time": "2026-03-06T19:30:00.000Z",
+      "end_time": "2026-03-06T20:30:00.000Z",
+      "recorded": true,
+      "skill_level": "Beginner",
+      "speakers": ["f25bb759", "35ca5e61", "05fe1c3c", "03bb30e6", "bc201430"],
+      "room": "White River E",
+      "tracks": ["Story ideas"],
       "sponsored_by": "",
       "cost": ""
     },
@@ -3642,6 +3658,22 @@
       "cost": ""
     },
     {
+      "session_id": 1363,
+      "session_title": "Python classes kick ass(es)",
+      "canceled": false,
+      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Tired of chasing global variables through a bajillion lines of linear code? Piling up dozens of functions that never seem to cohere into an efficient workflow? There&#39;s a better way! Discover how to model your data with custom Python classes, creating reusable blueprints that make your code easier to read and harder to break.</p>\n<p class=\"mt-4 leading-relaxed text-gray-800\">This session is good for folks who are comfortable writing basic Python scripts, including custom functions, but are new to object-oriented programming.</p>",
+      "session_type": "Hands-on",
+      "start_time": "2026-03-08T15:30:00.000Z",
+      "end_time": "2026-03-08T16:30:00.000Z",
+      "recorded": false,
+      "skill_level": "Intermediate",
+      "speakers": ["2e603491"],
+      "room": "201",
+      "tracks": [],
+      "sponsored_by": "",
+      "cost": ""
+    },
+    {
       "session_id": 1364,
       "session_title": "Quick-hit investigations",
       "canceled": false,
@@ -3654,6 +3686,54 @@
       "speakers": ["2fa3f995", "b754b942"],
       "room": "White River D",
       "tracks": ["Story ideas"],
+      "sponsored_by": "",
+      "cost": ""
+    },
+    {
+      "session_id": 1365,
+      "session_title": "Lunch Food Truck (Thursday)",
+      "canceled": false,
+      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Grab some lunch from Smokey Blue BBQ. <a href=\"https://smokeybluebbq.com\" class=\"text-indigo-600 hover:underline font-bold\">Check out the menu here</a>.</p>\n\n<p class=\"mt-4 leading-relaxed text-gray-800\">To find the food trucs, follow the signs on Level 1 near Ballroom F.</p>",
+      "session_type": "Special",
+      "start_time": "2026-03-05T17:30:00.000Z",
+      "end_time": "2026-03-05T19:15:00.000Z",
+      "recorded": false,
+      "skill_level": "",
+      "speakers": [],
+      "room": "Follow signs near Ballroom F",
+      "tracks": ["Event"],
+      "sponsored_by": "",
+      "cost": ""
+    },
+    {
+      "session_id": 1366,
+      "session_title": "Lunch Food Truck (Friday)",
+      "canceled": false,
+      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Grab some lunch from All American Grub. You can even order ahead! <a href=\"https://www.allamericangrub.com\" class=\"text-indigo-600 hover:underline font-bold\">Check out the menu here</a>.</p>\n\n<p class=\"mt-4 leading-relaxed text-gray-800\">Follow the signs on Level 1 near Ballroom F.</p>",
+      "session_type": "Special",
+      "start_time": "2026-03-06T17:30:00.000Z",
+      "end_time": "2026-03-06T19:15:00.000Z",
+      "recorded": false,
+      "skill_level": "",
+      "speakers": [],
+      "room": "Follow signs near Ballroom F",
+      "tracks": ["Event"],
+      "sponsored_by": "",
+      "cost": ""
+    },
+    {
+      "session_id": 1367,
+      "session_title": "Lunch Food Truck (Saturday)",
+      "canceled": false,
+      "description": "<p class=\"mt-4 leading-relaxed text-gray-800\">Grab some lunch from Bay Area Bistro. <a href=\"https://bit.ly/bay-area-bistro\" class=\"text-indigo-600 hover:underline font-bold\">Check out the menu here</a>.</p>\n\n<p class=\"mt-4 leading-relaxed text-gray-800\">Follow the signs on Level 1 near Ballroom F.</p>",
+      "session_type": "Special",
+      "start_time": "2026-03-07T17:30:00.000Z",
+      "end_time": "2026-03-07T19:15:00.000Z",
+      "recorded": false,
+      "skill_level": "",
+      "speakers": [],
+      "room": "Follow signs near Ballroom F",
+      "tracks": ["Event"],
       "sponsored_by": "",
       "cost": ""
     }
@@ -3683,8 +3763,13 @@
       "last_name": "Arevalo Zuniga",
       "affiliation": "Google",
       "headshot": "",
-      "bio": "",
-      "social": []
+      "bio": "Alejandra Arevalo is a data analyst at Google Trends. Previously, as a developer fellow at Hearst Newspapers, she built data, AI and visual storytelling products for local newsrooms across the U.S. She also worked at analytics company Chartmetric, exploring music industry trends through data. An active member of the data visualization community, Alejandra's work has been featured in Nightingale, the journal of the Data Visualization Society.",
+      "social": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/alejandrarevalo/"
+        }
+      ]
     },
     {
       "id": "c07405ee",
@@ -3848,10 +3933,12 @@
       "id": "550537ef",
       "first_name": "AmyJo",
       "last_name": "Brown",
-      "affiliation": "War Streets Media",
+      "affiliation": "The Public Ledger",
       "headshot": "",
-      "bio": "",
-      "social": []
+      "bio": "AmyJo Brown is a veteran journalist with a background in local government and investigative reporting. As a consulting editor, she focuses on the organizational challenges specific to doing good journalism at the local level. She designed The Public Ledger — a strategy rooted in beat expertise and hard-won knowledge of newsroom economics — to transform public records into research infrastructure, helping newsrooms track money, map power & surface story leads faster.",
+      "social": [
+        { "label": "LinkedIn", "url": "https://www.linkedin.com/in/amyjobr/" }
+      ]
     },
     {
       "id": "16264cf8",
@@ -3951,15 +4038,6 @@
       ]
     },
     {
-      "id": "ca35ff5d",
-      "first_name": "Aishi",
-      "last_name": "Chandra",
-      "affiliation": "Columbia University",
-      "headshot": "",
-      "bio": "",
-      "social": []
-    },
-    {
       "id": "56926de5",
       "first_name": "Aisvarya ",
       "last_name": "Chandrasekar",
@@ -3974,7 +4052,7 @@
       ]
     },
     {
-      "id": "",
+      "id": "071226b8",
       "first_name": "Cate",
       "last_name": "Charron",
       "affiliation": "Indy Star",
@@ -3986,9 +4064,9 @@
       "id": "91ac8daf",
       "first_name": "Lakeidra",
       "last_name": "Chavis",
-      "affiliation": "The Marshall Project",
+      "affiliation": "Independent journalist",
       "headshot": "",
-      "bio": "Lakeidra Chavis' work examines the experiences young people have with the legal system. I have also reported on gun violence and enforcement. My investigative reporting is often grounded in data analysis, historical research and in-depth interviews. I previously reported for ProPublica, The Trace and NPR stations in Chicago and Alaska.\n\nMy work has prompted policy changes, academic research and organizational shakeups. My reporting has also won several awards, and I’ve been a finalist for the Livingston Award for Local Reporting, the Selden Ring Award and the MOLLY National Journalism Prize.",
+      "bio": "",
       "social": []
     },
     {
@@ -4120,8 +4198,14 @@
       "last_name": "Dai",
       "affiliation": "National Association of REALTORS®",
       "headshot": "",
-      "bio": "",
-      "social": []
+      "bio": "Jovi Dai is an interactive visualization developer at the National Association of REALTORS®, where he develops charts and other visualizations that turn complex data into clear, accessible information for readers. Before joining NAR, he was a data reporter for Bay Area News Group, producing data-driven and visual stories for the San Jose Mercury News and East Bay Times focused on the San Francisco Bay Area and issues affecting local communities.",
+      "social": [
+        { "label": "X", "url": "https://twitter.com/jovi_dai" },
+        {
+          "label": "Bluesky",
+          "url": "https://bsky.app/profile/jovidai.bsky.social"
+        }
+      ]
     },
     {
       "id": "980352bb",
@@ -4497,8 +4581,13 @@
       "last_name": "Glavin",
       "affiliation": "OpenSecrets",
       "headshot": "",
-      "bio": "",
-      "social": []
+      "bio": "Brendan is director of insights at OpenSecrets. He started working in the money in politics space with the Campaign Finance Institute in 2001. He has worked extensively with congressional and presidential campaign donor data, modeling public financing proposals, and outside spending. He also worked on creating CFI’s database of state laws. Brendan graduated from Colgate University with degrees in political science and history.",
+      "social": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/brendan-glavin-b999308/"
+        }
+      ]
     },
     {
       "id": "b6b6fb69",
@@ -4506,7 +4595,7 @@
       "last_name": "Glorioso",
       "affiliation": "Miami Herald",
       "headshot": "",
-      "bio": "Alexandra Glorioso is a state government reporter for the Miami Herald/Tampa Bay Times' Tallahassee bureau. She has reported on politics and policy in Florida since 2016. Previously, she worked at POLITICO and the Naples Daily News, where she co-founded the IRE newsletter Local Matters with two colleagues. Her prior reporting led to the resignations of two powerful state senators and a record $9 million fine by the state against a Medicaid company. Her work on the Hope Florida series in 2025 has led to a criminal grand jury probe. Social: X: @aglorios, thread: @glorioso_reports",
+      "bio": "",
       "social": []
     },
     {
@@ -4590,8 +4679,14 @@
       "last_name": "Han",
       "affiliation": "Informa TechTarget (Industry Dive)",
       "headshot": "",
-      "bio": "",
-      "social": []
+      "bio": "Jasmine Ye Han is a news graphics developer at Informa TechTarget (Industry Dive), where she tells business news stories with data analysis and visualizations. Previously she was a data journalism reporter at Bloomberg Industry Group. Jasmine is an alumnus of the Missouri School of Journalism and NICAR data library. She moved to the U.S. from China in 2014.",
+      "social": [
+        { "label": "X", "url": "https://x.com/jasminehanye" },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jasmine-ye-han-08122380/"
+        }
+      ]
     },
     {
       "id": "7d57e8d2",
@@ -4613,8 +4708,17 @@
       "last_name": "Harper",
       "affiliation": "Decoherence Media",
       "headshot": "",
-      "bio": "",
-      "social": []
+      "bio": "Jennefer Harper is the co-founder of Decoherence Media, a nonprofit investigative media outlet. Her work focuses on far-right extremism in the US and transnational networks. She approaches her research and reporting through an intersectional framework using open and closed sources. She has a special interest in accelerationism, youth radicalization and government misconduct. In 2025, her work on a written investigation with The New Arab was shortlisted for an Amnesty Media Award.",
+      "social": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/jenneferharper"
+        },
+        {
+          "label": "Bluesky",
+          "url": "https://bsky.app/profile/jennefer.bsky.social"
+        }
+      ]
     },
     {
       "id": "a2c56652",
@@ -4622,7 +4726,7 @@
       "last_name": "Haseman",
       "affiliation": "Hearst",
       "headshot": "",
-      "bio": "Janie Haseman is the Hearst DevHub’s deputy director of visual storytelling. She works to expand data and visual storytelling across Hearst’s newsrooms, keeping in touch with local journalists to help create and build on new tools, stories, and systems. Previously, she built data visualizations and newsroom tools for USA TODAY and Gannett’s local newsrooms.",
+      "bio": "",
       "social": []
     },
     {
@@ -4696,8 +4800,13 @@
       "last_name": "Hidalgo",
       "affiliation": "University of North Texas",
       "headshot": "",
-      "bio": "",
-      "social": []
+      "bio": "Tabitha Hidalgo is an investigative-minded  journalist and incoming May 2026 graduate of the University of North Texas. She has led student newsrooms as editor-in-chief of the North Texas Daily and San Antonio College’s Sundial, and currently serves as president of UNT’s NAHJ chapter. She is passionate about storytelling that elevates underrepresented voices.",
+      "social": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/tabitha-hidalgo-a3619a2b1/N/"
+        }
+      ]
     },
     {
       "id": "9a8780d6",
@@ -4916,18 +5025,11 @@
       "first_name": "Jon",
       "last_name": "Keegan",
       "affiliation": "Sherwood News",
-      "headshot": "",
-      "bio": "",
-      "social": []
-    },
-    {
-      "id": "2dabd65b",
-      "first_name": "Claire",
-      "last_name": "Keenan-Kurgan",
-      "affiliation": "American Public Media",
-      "headshot": "",
-      "bio": "",
-      "social": []
+      "headshot": "https://ire-assets.s3.us-west-1.amazonaws.com/speaker-headshots/keegan-jon.png",
+      "bio": "Keegan is a data reporter covering AI and tech for Sherwood News. Previously, he was at The Markup and The Wall Street Journal.",
+      "social": [
+        { "label": "Bluesky", "url": "https://bsky.app/profile/jonkeegan.com" }
+      ]
     },
     {
       "id": "332548b1",
@@ -4983,15 +5085,6 @@
       "affiliation": "Invisible Institute",
       "headshot": "https://ire-assets.s3.us-west-1.amazonaws.com/speaker-headshots/khan-maheen.jpg",
       "bio": "Maheen Khan is the director of technology at the Invisible Institute. She studied information analysis and computer science in undergrad, and now works to maintain the Invisible Institute's tech tools (like CPDP) and support with data analysis for investigations.",
-      "social": []
-    },
-    {
-      "id": "1d8e457e",
-      "first_name": "Alison",
-      "last_name": "Killing",
-      "affiliation": "Financial Times",
-      "headshot": "",
-      "bio": "",
       "social": []
     },
     {
@@ -5330,17 +5423,22 @@
       "first_name": "Robert",
       "last_name": "Maguire",
       "affiliation": "Citizens for Responsibility and Ethics in Washington",
-      "headshot": "",
-      "bio": "",
-      "social": []
+      "headshot": "https://ire-assets.s3.us-west-1.amazonaws.com/speaker-headshots/maguire-robert.jpg",
+      "bio": "Robert is the vice president for research and data at Citizens for Responsibility and Ethics in Washington (CREW), where he leads efforts to investigate dark money and corruption. Prior to joining CREW, he founded the dark money tracking program at OpenSecrets, where he won SPJ’s Sigma Delta Chi award for his reporting. He has collaborated with and appeared in major outlets nationwide like NPR, The Washington Post, the New York Times and CNN.",
+      "social": [
+        {
+          "label": "Bluesky",
+          "url": "https://bsky.app/profile/robertmaguire.bsky.social"
+        }
+      ]
     },
     {
       "id": "ab5e0c55",
       "first_name": "Olivia",
       "last_name": "Mapes",
-      "affiliation": "Purdue University",
+      "affiliation": "The Purdue Exponent",
       "headshot": "",
-      "bio": "",
+      "bio": "Olivia Mapes is the editor-in-chief of The Exponent, Purdue's independent newspaper. Mapes is a senior studying creative writing and literature and planning on becoming a full-time journalist. During her time at The Exponent she has broken the news on the restructuring of the honors college, which the university has still not publicly announced, and did a deep dive on the effects of an insurance change on university faculty.",
       "social": []
     },
     {
@@ -5617,7 +5715,7 @@
       "first_name": "Greg",
       "last_name": "Morton",
       "affiliation": "The Baltimore Banner",
-      "headshot": "",
+      "headshot": "https://ire-assets.s3.us-west-1.amazonaws.com/speaker-headshots/morton-greg.png",
       "bio": "Greg Morton is the data editor at the The Banner, where he leads a team of data journalists dedicated to pursuing ambitious lines of reporting, answering important questions and producing impactful journalism that informs and challenges readers.",
       "social": [
         { "label": "X", "url": "https://twitter.com/invisibae" },
@@ -5804,8 +5902,13 @@
       "last_name": "Nichols",
       "affiliation": "Houston Chronicle",
       "headshot": "",
-      "bio": "",
-      "social": []
+      "bio": "Taylor is a data reporter covering education and local government for the Houston Chronicle. She holds a master’s degree in data journalism from the University of Maryland, where she worked for the Howard Center for Investigative Journalism. Her reporting has taken her from covering housing in Maine and Washington, D.C. to writing about higher education nationwide. She's passionate about accountability journalism and building tools to make data easy to use and understand.",
+      "social": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/taylor-m-nichols/"
+        }
+      ]
     },
     {
       "id": "917a63e5",
@@ -5937,10 +6040,15 @@
       "id": "5899ea41",
       "first_name": "Haley",
       "last_name": "Parsley",
-      "affiliation": "University of Maryland",
+      "affiliation": "Capital News Service",
       "headshot": "",
-      "bio": "",
-      "social": []
+      "bio": "Haley is a fellow at the Howard Center for Investigative Journalism and a graduate student at the Philip Merrill College of Journalism. She currently reports for Capital News Service, a newswire run by the University of Maryland, and is based in Washington, D.C. She holds a bachelor’s degree from Pomona College.",
+      "social": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/haley-parsley"
+        }
+      ]
     },
     {
       "id": "cfe2df66",
@@ -5982,10 +6090,15 @@
       "id": "9546ecde",
       "first_name": "Cheryl",
       "last_name": "Phillips",
-      "affiliation": "Stanford University",
-      "headshot": "",
-      "bio": "",
-      "social": []
+      "affiliation": "Big Local News",
+      "headshot": "https://ire-assets.s3.us-west-1.amazonaws.com/speaker-headshots/phillips-cheryl.png",
+      "bio": "Cheryl Phillips is a lecturer at Stanford and founder of Big Local News, which supports newsrooms by sharing public data for accountability reporting. Last year, Big Local News contributed to a Pulitzer Prize for Local Reporting with The Baltimore Banner, The New York Times and nine other newsrooms. She spent 12 years at The Seattle Times, where she was a part of two Pulitzers for breaking news and two Pulitzer finalists. She is a former IRE board president.",
+      "social": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/cheryl-phillips-biglocalnews/"
+        }
+      ]
     },
     {
       "id": "85627f6f",
@@ -6025,7 +6138,7 @@
       "last_name": "Price",
       "affiliation": "Atlanta Journal-Constitution",
       "headshot": "",
-      "bio": "",
+      "bio": "Justin Price uses data and public records to tell stories for the Atlanta Journal-Constitution.",
       "social": []
     },
     {
@@ -6173,13 +6286,22 @@
       ]
     },
     {
-      "id": "ab6a4060",
+      "id": "e448be3a",
       "first_name": "Rob",
       "last_name": "Reid",
-      "affiliation": "The Texas Tribune",
-      "headshot": "",
-      "bio": "",
-      "social": []
+      "affiliation": "Texas Tribune",
+      "headshot": "https://ire-assets.s3.us-west-1.amazonaws.com/speaker-headshots/reid-rob.jpg",
+      "bio": "Rob Reid is the Texas Tribune's education data developer, building a K-12 education data warehouse and web tools while supporting reporters with data analysis. He joined in 2024 after a data journalism internship at the Jacksonville Tributary, Columbia University's Lede Program and data consulting for Northwestern's Medill School. In a prior career, he developed a case management database with Healthy Families America.",
+      "social": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/rob-reid-789a6a1/"
+        },
+        {
+          "label": "Bluesky",
+          "url": "https://bsky.app/profile/robcat26.bsky.social"
+        }
+      ]
     },
     {
       "id": "77aa2a0f",
@@ -6350,9 +6472,19 @@
       "first_name": "Simon",
       "last_name": "Rogers",
       "affiliation": "Google",
-      "headshot": "",
-      "bio": "",
-      "social": []
+      "headshot": "https://ire-assets.s3.us-west-1.amazonaws.com/speaker-headshots/rogers-simon.jpg",
+      "bio": "Simon Rogers is an award-winning data journalist, writer and speaker. He is co-host of The Data Journalism Podcast and author of \"Facts are Sacred.\" He has also written a range of infographics for children books from Candlewick. Rogers is data editor at Google, advisor to the Sigma Data Journalism Awards and author of \"What We Ask Google,\" published in 2026.",
+      "social": [
+        { "label": "X", "url": "https://x.com/smfrogers" },
+        {
+          "label": "Instagram",
+          "url": "https://www.instagram.com/simonrogersdata"
+        },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/simonrogersjournalist"
+        }
+      ]
     },
     {
       "id": "002186ae",
@@ -6424,8 +6556,13 @@
       "last_name": "Sapiezynski",
       "affiliation": "Northeastern University",
       "headshot": "",
-      "bio": "",
-      "social": []
+      "bio": "Piotr is an Assistant Research Professor at Northeastern University. His work focuses on experimental verification of online platforms and their algorithms, with the focus on discrimination, privacy violations and disregard for user agency. He has collaborated with reporters at ProPublica, The Markup, The Atlantic and The New York Times. He has served as an expert for the Department of Justice in civil rights cases, and audited platforms with NGOs including Amnesty International.",
+      "social": [
+        {
+          "label": "Bluesky",
+          "url": "https://bsky.app/profile/sapiezynski.bsky.social"
+        }
+      ]
     },
     {
       "id": "c5e56010",
@@ -6446,7 +6583,7 @@
       "id": "ed8a14ce",
       "first_name": "Hilke",
       "last_name": "Schellmann",
-      "affiliation": "Independent journalist",
+      "affiliation": "New York University",
       "headshot": "",
       "bio": "",
       "social": []
@@ -6783,15 +6920,6 @@
       ]
     },
     {
-      "id": "31d9bb94",
-      "first_name": "Matt",
-      "last_name": "Topic",
-      "affiliation": "Loevy & Loevy",
-      "headshot": "",
-      "bio": "",
-      "social": []
-    },
-    {
       "id": "00d34c72",
       "first_name": "Mago",
       "last_name": "Torres",
@@ -6887,7 +7015,7 @@
       "id": "8472cb66",
       "first_name": "Kyle",
       "last_name": "Vass",
-      "affiliation": "Dragline",
+      "affiliation": "Dragline (ACLU-WV)",
       "headshot": "https://ire-assets.s3.us-west-1.amazonaws.com/speaker-headshots/vass-kyle.jpeg",
       "bio": "Kyle Vass is an investigative journalist who runs a not for profit news site (Dragline) in West Virginia. His work focuses on government accountability with an emphasis on police misconduct.",
       "social": []
@@ -6992,10 +7120,15 @@
       "id": "cbc2c1a9",
       "first_name": "Daniel",
       "last_name": "Wheaton",
-      "affiliation": "Midwest Newsroom",
+      "affiliation": "Nebraska Public Media",
       "headshot": "",
-      "bio": "",
-      "social": []
+      "bio": "Daniel Wheaton is the senior data journalist for the Midwest Newsroom, a collaboration of NPR member stations in Iowa, Kansas, Missouri and Nebraska. He collaborates with station reporters to produce in-depth and investigative journalism and provide data journalism assistance and graphic reporting to the region.",
+      "social": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/daniel-wheaton/"
+        }
+      ]
     },
     {
       "id": "bc201430",
@@ -7084,10 +7217,15 @@
       "id": "4b5d0ad9",
       "first_name": "Hannah",
       "last_name": "Woodworth",
-      "affiliation": "Stanford University",
+      "affiliation": "Stanford Univeristy",
       "headshot": "",
-      "bio": "",
-      "social": []
+      "bio": "Hannah is a data journalist and researcher based in Stanford, California. She most recently contracted as an AI specialist at Reuters, where she previously worked on the data team. At Stanford, she is developing knowledge graphs to structure complex news archives.",
+      "social": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/hannah-woodworthh/"
+        }
+      ]
     },
     {
       "id": "b00ec3c1",
@@ -7138,9 +7276,9 @@
       "id": "d986a8f6",
       "first_name": "Leon",
       "last_name": "Yin",
-      "affiliation": "Bloomberg",
+      "affiliation": "Bloomberg News",
       "headshot": "",
-      "bio": "",
+      "bio": "Leon Yin is an investigative data journalist at Bloomberg News. He covers technology.",
       "social": []
     },
     {
@@ -7201,6 +7339,62 @@
           "url": "https://www.linkedin.com/in/jerry-zremski/"
         }
       ]
+    },
+    {
+      "id": "f191b796",
+      "first_name": "Nick",
+      "last_name": "McMillan",
+      "affiliation": "ProPublica",
+      "headshot": "",
+      "bio": "McMillan recently joined ProPublica as a computational journalist. Previously, he was a data journalist on NPR’s investigations team, where he combined reporting with data analysis, building tools that transformed raw records into evidence for accountability reporting.",
+      "social": []
+    },
+    {
+      "id": "f21e6eda",
+      "first_name": "Elizabeth",
+      "last_name": "Alspach",
+      "affiliation": "University of Maryland",
+      "headshot": "",
+      "bio": "Lizzy Alspach is a senior journalism and Spanish major at the University of Maryland. There, she guided data analysis in the Howard Center for Investigative Journalism’s \"Off the Rails\" project, which revealed how hazardous materials on trains face minimal regulations. She’s also editor in chief of The Diamondback, a university independent student newspaper.",
+      "social": [
+        { "label": "X", "url": "https://x.com/lalspach03" },
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/elizabeth-alspach-"
+        }
+      ]
+    },
+    {
+      "id": "555dbf4b",
+      "first_name": "Daranee",
+      "last_name": "Balachandar",
+      "affiliation": "Independent journalist",
+      "headshot": "",
+      "bio": "Daranee Balachandar graduated from the University of Maryland with a masters in journalism, focused on investigative and data reporting. She interned with the Investigations team at The Washington Post in 2025. During her time at Maryland, she served as a reporter for Capital News Service and the Howard Center for Investigative Journalism, and as a data journalist for The Diamondback, the university’s student newspaper.",
+      "social": [
+        {
+          "label": "LinkedIn",
+          "url": "https://www.linkedin.com/in/daranee-balachandar/"
+        }
+      ]
+    },
+    {
+      "id": "cbfd6c9d",
+      "first_name": "Jaden",
+      "last_name": "Edison",
+      "affiliation": "Texas Tribune",
+      "headshot": "",
+      "bio": "",
+      "social": []
+    },
+    {
+      "id": "7c15623e",
+      "first_name": "Enrique",
+      "last_name": "Saenz",
+      "affiliation": "MirrorIndy",
+      "headshot": "",
+      "bio": "",
+      "social": []
     }
   ],
   "sponsors": [
@@ -7393,7 +7587,8 @@
     "Coat room": { "level": 1, "os": "" },
     "Griffin Hall": { "level": 2, "os": "" },
     "White River Foyer": { "level": 1, "os": "" },
-    "TBD": { "level": "", "os": "" }
+    "Near the escalator": { "level": 1, "os": "" },
+    "Follow signs near Ballroom F": { "level": 1, "os": "" }
   },
   "meta_events": {
     "2026-03-04": [
@@ -7430,6 +7625,14 @@
         "type": "Drop your coat",
         "room": "Coat room",
         "description": ""
+      },
+      {
+        "datetime_start": "2026-03-05T17:30:00.000Z",
+        "date": "2026-03-05",
+        "datetime_end": "2026-03-05T19:30:00.000Z",
+        "type": "Food truck",
+        "room": "Follow signs near Ballroom F",
+        "description": "<a class=\"hover:underline\" href=\"https://www.smokeybluebbq.com/menu\">Smokey Blue BBQ</a>"
       }
     ],
     "2026-03-06": [
@@ -7456,6 +7659,14 @@
         "type": "Drop your coat",
         "room": "Coat room",
         "description": ""
+      },
+      {
+        "datetime_start": "2026-03-06T17:30:00.000Z",
+        "date": "2026-03-06",
+        "datetime_end": "2026-03-06T19:30:00.000Z",
+        "type": "Food truck",
+        "room": "Follow signs near Ballroom F",
+        "description": "<a class=\"hover:underline\" href=\"https://www.allamericangrub.com/our-menu\">All American Grub</a> (pro tip: they take mobile orders!)"
       }
     ],
     "2026-03-07": [
@@ -7482,6 +7693,14 @@
         "type": "Drop your coat",
         "room": "Coat room",
         "description": ""
+      },
+      {
+        "datetime_start": "2026-03-07T17:30:00.000Z",
+        "date": "2026-03-07",
+        "datetime_end": "2026-03-07T19:30:00.000Z",
+        "type": "Food truck",
+        "room": "Follow signs near Ballroom F",
+        "description": "<a class=\"hover:underline\" href=\"https://docs.google.com/document/d/1H-YUj7_oUN4lXV09EVwSINr96XJnSUXZ8vLibDlRGxM/edit?usp=sharing\">Bay Area Bistro</a>"
       }
     ]
   },
@@ -7501,6 +7720,20 @@
     {
       "label": "App: NICAR 2026 Posts on Bluesky",
       "url": "https://apps.machlis.com/shiny/nicar2026/"
+    },
+    {
+      "label": "Conference schedule (music festival grid layout)",
+      "url": "https://www.tylermachado.com/nicar-schedule/"
+    }
+  ],
+  "floorplans": [
+    {
+      "floor": 1,
+      "image_url": "https://www.marriott.com/content/dam/marriott-digital/jw/us-canada/hws/i/indjw/en_us/floor-plan/meeting-space/assets/indjwf01.png"
+    },
+    {
+      "floor": 2,
+      "image_url": "https://www.marriott.com/content/dam/marriott-digital/jw/us-canada/hws/i/indjw/en_us/floor-plan/meeting-space/assets/indjwf02.png"
     }
   ],
   "exhibitor_location": "Foyer (2nd floor)"
