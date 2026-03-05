@@ -29,8 +29,13 @@ function isSaved(id: string): boolean {
   return !!savedIds[id];
 }
 
+function getIds(): string[] {
+  return Object.keys(savedIds);
+}
+
 export const savedSessions = {
   get ids() { return savedIds; },
   toggle,
-  isSaved
+  isSaved,
+  getIds
 };
