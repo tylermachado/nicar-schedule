@@ -47,7 +47,10 @@
 
 	// Derive everything from selectedDate
 	const daySessions = $derived(
-		schedule.sessions.filter((s) => s.start_time.startsWith(selectedDate))
+		schedule.sessions.filter((s) =>
+			s.start_time.startsWith(selectedDate) &&
+			s.start_time > `${selectedDate}T07:00:00`
+		)
 	);
 
 	const rooms = $derived.by(() => {
