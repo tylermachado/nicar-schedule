@@ -26,7 +26,14 @@
 	].sort();
 
 	// Selected date (reactive)
-	let selectedDate = $state(dates[1]);
+	const today: Date = new Date();
+	const mm = String(today.getMonth() + 1).padStart(2, '0');
+	const dd = String(today.getDate()).padStart(2, '0');
+	const yyyy = today.getFullYear();
+
+	const formattedDate: string = `${yyyy}-${mm}-${dd}`; 
+
+	let selectedDate = $state(formattedDate);
 
 	function formatDateLabel(dateStr: string): string {
 		// Parse as local midnight so the weekday is correct
