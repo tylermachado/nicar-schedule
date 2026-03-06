@@ -26,7 +26,7 @@
 	].sort();
 
 	// Selected date (reactive)
-	let selectedDate = $state(dates[0]);
+	let selectedDate = $state(dates[1]);
 
 	function formatDateLabel(dateStr: string): string {
 		// Parse as local midnight so the weekday is correct
