@@ -33,7 +33,7 @@
 
 	const formattedDate: string = `${yyyy}-${mm}-${dd}`; 
 
-	let selectedDate = $state(formattedDate);
+	let selectedDate = $state(dates[0]);
 
 	function formatDateLabel(dateStr: string): string {
 		// Parse as local midnight so the weekday is correct
